@@ -19,7 +19,7 @@ namespace tabuleiro
         {
             return linha.ToString()
                 + ", "
-                +coluna.ToString();
+                + coluna.ToString();
         }
     }
 }
