@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using tabuleiro;
+
+
 namespace xadrez
 {
     class PartidaDeXadrez
@@ -31,13 +33,13 @@ namespace xadrez
         {
 
             tab.ColocarPeca(new Torre(Cor.Preta, tab), new PosicaoXadrez('c', 1).toPosicao());
-            tab.ColocarPeca(new Torre(Cor.Preta, tab), new PosicaoXadrez('c', 2).toPosicao());
-            tab.ColocarPeca(new Torre(Cor.Preta, tab), new PosicaoXadrez('c', 3).toPosicao());
-            tab.ColocarPeca(new Torre(Cor.Preta, tab), new PosicaoXadrez('c', 4).toPosicao());
-            tab.ColocarPeca(new Rei(Cor.Preta, tab), new PosicaoXadrez('c', 5).toPosicao());
-            tab.ColocarPeca(new Rei(Cor.Preta, tab), new PosicaoXadrez('c', 6).toPosicao());
-            tab.ColocarPeca(new Rei(Cor.Preta, tab), new PosicaoXadrez('a', 1).toPosicao());
-            tab.ColocarPeca(new Rei(Cor.Preta, tab), new PosicaoXadrez('a', 2).toPosicao());
+            tab.ColocarPeca(new Torre(Cor.Preta, tab), new PosicaoXadrez('d', 1).toPosicao());
+            tab.ColocarPeca(new Torre(Cor.Preta, tab), new PosicaoXadrez('e', 1).toPosicao());
+            tab.ColocarPeca(new Torre(Cor.Preta, tab), new PosicaoXadrez('f', 1).toPosicao());
+            tab.ColocarPeca(new Rei(Cor.Branca, tab), new PosicaoXadrez('c', 8).toPosicao());
+            tab.ColocarPeca(new Rei(Cor.Branca, tab), new PosicaoXadrez('d', 8).toPosicao());
+            tab.ColocarPeca(new Rei(Cor.Branca, tab), new PosicaoXadrez('e', 8).toPosicao());
+            tab.ColocarPeca(new Rei(Cor.Branca, tab), new PosicaoXadrez('f', 8).toPosicao());
             
 
         }
