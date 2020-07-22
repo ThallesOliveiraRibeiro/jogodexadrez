@@ -28,7 +28,7 @@ namespace xadrez
             Posicao pos = new Posicao(0, 0);
 
             // acima
-             pos = new Posicao(posicao.linha - 1, posicao.coluna);
+            pos = new Posicao(posicao.linha - 1, posicao.coluna);
             if (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.linha, pos.coluna] = true;
@@ -46,7 +46,7 @@ namespace xadrez
                 mat[pos.linha, pos.coluna] = true;
             }
             // se
-            pos = new Posicao(posicao.linha +1, posicao.coluna +1);
+            pos = new Posicao(posicao.linha + 1, posicao.coluna + 1);
             if (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.linha, pos.coluna] = true;
@@ -58,19 +58,19 @@ namespace xadrez
                 mat[pos.linha, pos.coluna] = true;
             }
             // so
-            pos = new Posicao(posicao.linha +1, posicao.coluna -1);
+            pos = new Posicao(posicao.linha + 1, posicao.coluna - 1);
             if (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.linha, pos.coluna] = true;
             }
             // esquerda
-            pos = new Posicao(posicao.linha, posicao.coluna -1);
+            pos = new Posicao(posicao.linha, posicao.coluna - 1);
             if (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.linha, pos.coluna] = true;
             }
             // no
-            pos = new Posicao(posicao.linha -1, posicao.coluna -1);
+            pos = new Posicao(posicao.linha - 1, posicao.coluna - 1);
             if (tab.posicaoValida(pos) && podeMover(pos))
             {
                 mat[pos.linha, pos.coluna] = true;
