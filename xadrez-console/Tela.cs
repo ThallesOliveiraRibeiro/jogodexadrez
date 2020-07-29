@@ -29,7 +29,7 @@ namespace xadrez_console
             {
                 Console.WriteLine("XEQUEMATE!");
                 Console.WriteLine("Vencedor: " + partida.jogadorAtual);
-                Console.WriteLine();
+                
             }
         }
 

@@ -44,9 +44,9 @@ namespace tabuleiro
             return false;
         }
 
-        public bool podeMoverPara(Posicao pos)
+        public bool movimentoPossivel(Posicao pos)
         {
-            return movimentosPossiveis()[pos.linha, pos.coluna];                // Testa se na matriz na posicao pos.linha e pos.coluna é verdadeira
+            return movimentosPossiveis()[pos.linha, pos.coluna];                // Testa se na matriz de booleanos na posicao pos.linha e pos.coluna é verdadeira
         }
 
         public abstract bool[,] movimentosPossiveis();

@@ -111,7 +111,6 @@ namespace xadrez
                 throw new TabuleiroException("Posição de destino inválida");
             }
 
-
         }
 
         private void mudaJogador()
