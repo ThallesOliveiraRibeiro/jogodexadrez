@@ -89,7 +89,7 @@ namespace xadrez
                 pos = new Posicao(posicao.linha + 1, posicao.coluna + 1);
                 if (tab.posicaoValida(pos) && existeInimigo(pos))
                     mat[pos.linha, pos.coluna] = true;
- 
+
                 // # JOGADA ESPECIAL en passant
 
                 if (posicao.linha == 4)
